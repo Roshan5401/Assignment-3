@@ -90,7 +90,7 @@ public class App {
                             System.out.println("Log-in Failed\n");
                         break;
                 default:System.out.println("Wrong choice\n");
-                        break;
+                        return;
             }
         }
     }
